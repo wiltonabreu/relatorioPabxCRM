@@ -1,0 +1,100 @@
+html, body {
+  overflow-x: hidden;
+}
+
+#icone i{
+    position: absolute;
+    right: 861px;
+    font-size: 50px;
+    top: 467px;
+    color: black;    
+}
+
+#chart_div {
+    position: absolute;    
+    top: 252px;
+
+}
+
+#table_div {
+    position: absolute;
+    top: 238px;    
+    width: 100%;
+    height: 59px;
+}
+
+#charts_table{    
+    position: absolute;
+    width: 580px;    
+    top: 330px;
+    right: 157px;
+    overflow-x:auto;
+}
+
+#charts_table .google-visualization-table-td.google-visualization-table-type-number {
+    text-align: center;
+    white-space: nowrap;
+}
+
+
+
+#table_div .google-visualization-table-tr-even {
+    background-color: #B0C4DE;
+}
+
+#table_div .google-visualization-table-tr-head {
+    background-color: #708090;
+    font-weight: bold;
+    text-align: center;
+}
+
+#table_div .google-visualization-table-table th {
+    border: solid #eee;
+    border-width: 0 1px 1px 0;
+    padding: 2px .35em;
+    position: relative;
+    z-index: 10;
+    font-size: 20px;
+}
+
+#table_div .google-visualization-table-td.google-visualization-table-type-number {
+    text-align: center;
+    white-space: nowrap;
+    font-size: 18px;
+}
+
+#table_div .google-visualization-table-table td {
+    border: solid #eee;
+    border-width: 0 1px 1px 0;
+    padding: 2px .35em;
+    font-size: 18px;
+    text-align: center;
+}
+#formulario-container {
+	position: relative;
+	margin-top: 30px;
+	margin-bottom: 80px;
+}
+#form-row .input-ramal .label-ramal{
+	width: 178px;    
+    position: absolute;
+    left: 50%;
+}
+#formulario-container .buttons{
+	position: absolute;
+	top: 100px;
+
+}
+
+#btn-submit{
+	position: absolute;
+	left: 455px;
+	width: 100px;
+	
+}
+#btn-reset{
+	position: absolute;
+	left: 590px;
+	width: 100px;
+	
+}
